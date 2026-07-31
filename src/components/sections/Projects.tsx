@@ -5,38 +5,38 @@ import { ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    id: 2,
-    title: 'FutureHome',
-    description: 'A website for solar installations and sanitary appliances, featuring a responsive design and seamless user experience.',
+    id: 1,
+    title: 'FutureHome - Solar Platform',
+    description: 'An interactive web portal showcasing renewable energy products and services. Built responsive grid layouts for mobile, tablet, and desktop screens.',
     image: 'https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=800&auto=format&fit=crop',
     category: 'Frontend',
-    tech: ['React', 'TypeScript', 'Tailwind', 'Framer Motion'],
+    tech: ['HTML5', 'CSS3', 'Tailwind', 'JavaScript'],
+    github: 'https://github.com/nawalkhanz08-commits',
+    demo: '#'
+  },
+  {
+    id: 2,
+    title: 'Netflix Interface Clone',
+    description: 'A dynamic streaming UI replica featuring real-time movie catalogue fetching via API integration. Implemented modular React components and state management.',
+    image: 'https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=800&auto=format&fit=crop',
+    category: 'Frontend',
+    tech: ['React.js', 'JavaScript', 'Tailwind CSS', 'REST API'],
     github: 'https://github.com/nawalkhanz08-commits',
     demo: '#'
   },
   {
     id: 3,
-    title: 'Restaurant Management System',
-    description: 'A full-stack solution for restaurants to manage inventory, staff shifts, and online orders with real-time updates.',
-    image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop',
-    category: 'Full Stack',
-    tech: ['React', 'Node.js', 'Express', 'PostgreSQL'],
-    github: 'https://github.com/nawalkhanz08-commits',
-    demo: '#'
-  },
-  {
-    id: 4,
-    title: 'AI Chat Assistant',
-    description: 'An intelligent conversational agent capable of answering complex queries and generating code snippets.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop',
-    category: 'AI',
-    tech: ['React', 'OpenAI', 'Tailwind'],
+    title: 'Coffee Shop Interactive App',
+    description: 'An engaging storefront website highlighting featured products, menus, and business info with smooth scrolling, intuitive UI navigation, and responsive media queries.',
+    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop',
+    category: 'Frontend',
+    tech: ['HTML5', 'CSS3', 'JavaScript'],
     github: 'https://github.com/nawalkhanz08-commits',
     demo: '#'
   }
 ];
 
-const categories = ['All', 'Frontend', 'Full Stack', 'UI Design', 'AI'];
+const categories = ['All', 'Frontend'];
 
 export const Projects = () => {
   const [filter, setFilter] = useState('All');

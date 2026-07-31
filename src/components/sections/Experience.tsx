@@ -1,26 +1,41 @@
 import { motion } from 'framer-motion';
-import { BookOpen, Calendar, Code2, CheckCircle2 } from 'lucide-react';
+import { Briefcase, Target, Database, Calendar, CheckCircle2 } from 'lucide-react';
 
 const experiences = [
   {
     id: 1,
-    title: 'Full Stack Web Development',
-    date: '2026 – Present',
-    icon: BookOpen,
-    description: 'Completed a Full Stack Web Development course covering HTML, CSS, JavaScript, React, Tailwind CSS, Node.js, APIs, and modern development practices. Built multiple projects to strengthen frontend and backend skills.',
-    details: []
+    title: 'Web Development Contractor',
+    date: 'US-Based Company',
+    icon: Briefcase,
+    description: '',
+    details: [
+      'Technologies: React.js, JavaScript (ES6+), HTML5, Tailwind CSS',
+      'Built and maintained responsive, performance-optimized web applications for international client specifications.',
+      'Collaborated with cross-functional remote teams to translate project specifications into scalable front-end components.',
+      'Optimized page layout performance and ensured seamless cross-browser compatibility.'
+    ]
   },
   {
     id: 2,
-    title: 'Personal Projects',
-    date: '2026 – Present',
-    icon: Code2,
+    title: 'Sales & Lead Generation Executive',
+    date: 'Client Services • 6 Months',
+    icon: Target,
     description: '',
     details: [
-      'Future Homes – Solar, sanitary, and home appliances website.',
-      'Netflix Movie Clone with movie API.',
-      'AI Chatbot.',
-      'JavaScript Browser Game.'
+      'Conducted market research and outreach using tools like LinkedIn Sales Navigator and Apollo.io to identify high-potential business leads.',
+      'Managed direct client communications and outreach via HubSpot CRM, enhancing pipeline growth and client satisfaction.',
+      'Strengthened professional negotiation, active listening, and technical communication skills.'
+    ]
+  },
+  {
+    id: 3,
+    title: 'Data Entry Operator',
+    date: 'Administrative Services • 1 Year',
+    icon: Database,
+    description: '',
+    details: [
+      'Managed high-volume data records in Google Sheets and databases with strict adherence to accuracy and formatting standards.',
+      'Performed data verification, error audits, and structured record management.'
     ]
   }
 ];
@@ -38,7 +53,7 @@ export const Experience = () => {
           className="text-center mb-20"
         >
           <h2 className="text-[32px] md:text-5xl font-bold text-white mb-6 text-center w-full tracking-wide">
-            Learning <span className="text-secondary">Journey</span>
+            Work <span className="text-secondary">Experience</span>
           </h2>
           <div className="w-24 h-1.5 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full" />
         </motion.div>

@@ -1,27 +1,28 @@
 import { motion, type Variants } from 'framer-motion';
 import { 
-  FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub 
+  FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaLinkedin
 } from 'react-icons/fa';
 import { 
-  SiTypescript, SiNextdotjs, SiTailwindcss, SiExpress, SiMongodb, SiFirebase 
+  SiTailwindcss, SiSupabase, SiVercel, SiNetlify, SiHubspot
 } from 'react-icons/si';
-import { TbApi } from 'react-icons/tb';
+import { TbApi, TbBrandVscode } from 'react-icons/tb';
 
 const skills = [
   { name: 'HTML5', icon: FaHtml5, color: 'group-hover:text-[#E34F26]' },
   { name: 'CSS3', icon: FaCss3Alt, color: 'group-hover:text-[#1572B6]' },
   { name: 'JavaScript', icon: FaJs, color: 'group-hover:text-[#F7DF1E]' },
-  { name: 'TypeScript', icon: SiTypescript, color: 'group-hover:text-[#3178C6]' },
   { name: 'React', icon: FaReact, color: 'group-hover:text-[#61DAFB]' },
-  { name: 'Next.js', icon: SiNextdotjs, color: 'group-hover:text-white' },
   { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'group-hover:text-[#06B6D4]' },
   { name: 'Node.js', icon: FaNodeJs, color: 'group-hover:text-[#339933]' },
-  { name: 'Express.js', icon: SiExpress, color: 'group-hover:text-white' },
-  { name: 'MongoDB', icon: SiMongodb, color: 'group-hover:text-[#47A248]' },
-  { name: 'Firebase', icon: SiFirebase, color: 'group-hover:text-[#FFCA28]' },
+  { name: 'Supabase', icon: SiSupabase, color: 'group-hover:text-[#3FCF8E]' },
+  { name: 'REST API', icon: TbApi, color: 'group-hover:text-[#38BDF8]' },
+  { name: 'HubSpot', icon: SiHubspot, color: 'group-hover:text-[#FF7A59]' },
+  { name: 'LinkedIn', icon: FaLinkedin, color: 'group-hover:text-[#0077b5]' },
   { name: 'Git', icon: FaGitAlt, color: 'group-hover:text-[#F05032]' },
   { name: 'GitHub', icon: FaGithub, color: 'group-hover:text-white' },
-  { name: 'REST API', icon: TbApi, color: 'group-hover:text-[#38BDF8]' },
+  { name: 'VS Code', icon: TbBrandVscode, color: 'group-hover:text-[#007ACC]' },
+  { name: 'Vercel', icon: SiVercel, color: 'group-hover:text-white' },
+  { name: 'Netlify', icon: SiNetlify, color: 'group-hover:text-[#00C7B7]' },
 ];
 
 export const Skills = () => {

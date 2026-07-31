@@ -65,7 +65,7 @@ export const Resume = () => {
                   <User size={20} className="text-primary" /> Professional Summary
                 </h4>
                 <p className="text-secondary-text leading-relaxed">
-                  Motivated AI Web Developer with hands-on experience building modern full-stack web applications using React, JavaScript, Tailwind CSS, Node.js, and Supabase. Passionate about AI integrations, responsive UI/UX design, and solving real-world problems through technology. Experienced working remotely with US-based teams.
+                  Motivated and detail-oriented Web Developer skilled in designing and deploying responsive, modern web applications. Proficient across the front-end stack (React.js, JavaScript ES6+, Tailwind CSS, HTML5, CSS3) and back-end fundamentals (Node.js, Supabase, REST APIs, SQL). Combines technical application development with modern AI development workflows (Cursor, Claude, Google Antigravity) and hands-on experience in lead generation and client communications.
                 </p>
               </div>
             </motion.div>
@@ -83,15 +83,21 @@ export const Resume = () => {
               <div className="space-y-6">
                 <div className="relative pl-6 border-l-2 border-primary/30">
                   <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-1.5 shadow-[0_0_10px_rgba(59,130,246,0.8)]" />
-                  <h5 className="text-lg font-bold text-white">Remote Team Collaboration</h5>
-                  <p className="text-primary font-medium text-sm mb-2">US-based Teams</p>
-                  <p className="text-secondary-text text-sm">Experience working seamlessly in a remote environment, collaborating efficiently with international teams to deliver high-quality web solutions.</p>
+                  <h5 className="text-lg font-bold text-white">Web Development Contractor</h5>
+                  <p className="text-primary font-medium text-sm mb-2">US-Based Company</p>
+                  <p className="text-secondary-text text-sm">Built and maintained responsive web applications, collaborating with remote teams to translate specifications into scalable components.</p>
                 </div>
                 <div className="relative pl-6 border-l-2 border-primary/30">
                   <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-1.5 shadow-[0_0_10px_rgba(59,130,246,0.8)]" />
-                  <h5 className="text-lg font-bold text-white">Microsoft Excel Data Management</h5>
-                  <p className="text-primary font-medium text-sm mb-2">1 Year Experience</p>
-                  <p className="text-secondary-text text-sm">Handling complex spreadsheets, data analysis, and documentation.</p>
+                  <h5 className="text-lg font-bold text-white">Sales & Lead Generation Executive</h5>
+                  <p className="text-primary font-medium text-sm mb-2">Client Services • 6 Months</p>
+                  <p className="text-secondary-text text-sm">Market research, outreach via LinkedIn/Apollo.io, and client communication using HubSpot CRM.</p>
+                </div>
+                <div className="relative pl-6 border-l-2 border-primary/30">
+                  <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-1.5 shadow-[0_0_10px_rgba(59,130,246,0.8)]" />
+                  <h5 className="text-lg font-bold text-white">Data Entry Operator</h5>
+                  <p className="text-primary font-medium text-sm mb-2">Administrative Services • 1 Year</p>
+                  <p className="text-secondary-text text-sm">Managed high-volume data records, data verification, and structured record management.</p>
                 </div>
               </div>
             </motion.div>
@@ -108,16 +114,16 @@ export const Resume = () => {
               </h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-white/5 p-5 rounded-2xl border border-white/5 hover:border-primary/50 transition-colors">
-                  <h5 className="font-bold text-white mb-2">AI-Powered Future Home Platform</h5>
-                  <p className="text-secondary-text text-sm mb-3">React, Tailwind CSS, Supabase Authentication & Database.</p>
+                  <h5 className="font-bold text-white mb-2">FutureHome</h5>
+                  <p className="text-secondary-text text-sm mb-3">Solar Equipment Platform built with HTML5, CSS3, Tailwind CSS, JavaScript.</p>
                 </div>
                 <div className="bg-white/5 p-5 rounded-2xl border border-white/5 hover:border-primary/50 transition-colors">
-                  <h5 className="font-bold text-white mb-2">BrowserOS</h5>
-                  <p className="text-secondary-text text-sm mb-3">Browser-based desktop environment with draggable windows, taskbar, and management.</p>
+                  <h5 className="font-bold text-white mb-2">Netflix Clone</h5>
+                  <p className="text-secondary-text text-sm mb-3">Dynamic streaming UI with real-time movie fetching (React, Tailwind).</p>
                 </div>
                 <div className="bg-white/5 p-5 rounded-2xl border border-white/5 hover:border-primary/50 transition-colors md:col-span-2">
-                  <h5 className="font-bold text-white mb-2">Restaurant Management System</h5>
-                  <p className="text-secondary-text text-sm mb-3">Responsive dashboard with modern UI/UX for managing restaurant operations.</p>
+                  <h5 className="font-bold text-white mb-2">Coffee Shop App</h5>
+                  <p className="text-secondary-text text-sm mb-3">Interactive storefront website highlighting featured products and menus.</p>
                 </div>
               </div>
             </motion.div>
@@ -139,27 +145,27 @@ export const Resume = () => {
               
               <div className="space-y-4">
                 <div>
-                  <h6 className="text-white text-sm font-semibold mb-2">Frontend</h6>
+                  <h6 className="text-white text-sm font-semibold mb-2">Front-End</h6>
                   <div className="flex flex-wrap gap-2">
-                    {['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS'].map(s => <span key={s} className="px-3 py-1 bg-primary/10 border border-primary/20 text-blue-200 text-xs rounded-full">{s}</span>)}
+                    {['React.js', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Tailwind CSS'].map(s => <span key={s} className="px-3 py-1 bg-primary/10 border border-primary/20 text-blue-200 text-xs rounded-full">{s}</span>)}
                   </div>
                 </div>
                 <div>
-                  <h6 className="text-white text-sm font-semibold mb-2">Backend & DB</h6>
+                  <h6 className="text-white text-sm font-semibold mb-2">Back-End & DB</h6>
                   <div className="flex flex-wrap gap-2">
-                    {['Node.js', 'Express.js', 'Supabase', 'SQL'].map(s => <span key={s} className="px-3 py-1 bg-secondary/10 border border-secondary/20 text-purple-200 text-xs rounded-full">{s}</span>)}
+                    {['Node.js', 'REST APIs', 'Supabase', 'SQL'].map(s => <span key={s} className="px-3 py-1 bg-secondary/10 border border-secondary/20 text-purple-200 text-xs rounded-full">{s}</span>)}
                   </div>
                 </div>
                 <div>
-                  <h6 className="text-white text-sm font-semibold mb-2">AI & Automation</h6>
+                  <h6 className="text-white text-sm font-semibold mb-2">Lead Gen & Sales</h6>
                   <div className="flex flex-wrap gap-2">
-                    {['OpenAI APIs', 'AI Integrations', 'Prompt Engineering', 'AI Workflow Automation'].map(s => <span key={s} className="px-3 py-1 bg-green-500/10 border border-green-500/20 text-green-200 text-xs rounded-full">{s}</span>)}
+                    {['HubSpot CRM', 'LinkedIn Sales Nav', 'Apollo.io', 'Google Sheets'].map(s => <span key={s} className="px-3 py-1 bg-green-500/10 border border-green-500/20 text-green-200 text-xs rounded-full">{s}</span>)}
                   </div>
                 </div>
                 <div>
-                  <h6 className="text-white text-sm font-semibold mb-2">Tools</h6>
+                  <h6 className="text-white text-sm font-semibold mb-2">Developer & AI Tools</h6>
                   <div className="flex flex-wrap gap-2">
-                    {['Git', 'VS Code', 'Cursor AI', 'Antigravity', 'Postman', 'Figma', 'Canva'].map(s => <span key={s} className="px-3 py-1 bg-white/5 border border-white/10 text-gray-300 text-xs rounded-full">{s}</span>)}
+                    {['Git', 'VS Code', 'Cursor', 'Claude', 'Google Antigravity', 'Vercel'].map(s => <span key={s} className="px-3 py-1 bg-white/5 border border-white/10 text-gray-300 text-xs rounded-full">{s}</span>)}
                   </div>
                 </div>
               </div>
@@ -174,17 +180,18 @@ export const Resume = () => {
             >
               <div className="mb-6">
                 <h4 className="flex items-center gap-2 text-xl font-semibold text-white mb-3">
-                  <GraduationCap size={20} className="text-primary" /> Education
+                  <GraduationCap size={20} className="text-primary" /> Education & Certs
                 </h4>
-                <p className="text-secondary-text text-sm">Intermediate</p>
+                <p className="text-secondary-text text-sm mb-2"><strong className="text-white">Diploma in Web Dev & AI</strong> - 2026</p>
+                <p className="text-secondary-text text-sm"><strong className="text-white">Intermediate</strong> - In Progress</p>
               </div>
               <div>
                 <h4 className="flex items-center gap-2 text-xl font-semibold text-white mb-3">
                   <Globe size={20} className="text-primary" /> Languages
                 </h4>
                 <div className="flex gap-4">
-                  <span className="px-4 py-1.5 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300">English</span>
-                  <span className="px-4 py-1.5 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300">Urdu</span>
+                  <span className="px-4 py-1.5 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300">English (Prof)</span>
+                  <span className="px-4 py-1.5 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300">Urdu (Native)</span>
                 </div>
               </div>
             </motion.div>
@@ -201,9 +208,8 @@ export const Resume = () => {
               </h4>
               <div className="flex flex-wrap gap-2">
                 {[
-                  'Problem Solving', 'Fast Learner', 'Team Collaboration', 
-                  'Communication', 'Time Management', 'Attention to Detail', 
-                  'Adaptability', 'Continuous Learning'
+                  'Cross-functional Teamwork', 'Strategic Problem Solving', 
+                  'Client Relationship Management', 'Time Management'
                 ].map((s) => (
                   <span key={s} className="px-3 py-1.5 glass border border-white/10 text-gray-300 text-xs rounded-full">
                     {s}
@@ -215,95 +221,6 @@ export const Resume = () => {
           </div>
         </div>
 
-        {/* Certifications Section (Full Width Grid) */}
-        <div className="mt-16">
-          <motion.h4 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="flex items-center justify-center gap-2 text-3xl font-bold text-white mb-10 text-center"
-          >
-            <Award size={28} className="text-primary" /> Certifications
-          </motion.h4>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            
-            {/* Cert 1 */}
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="group glass p-8 rounded-3xl border border-white/10 hover:border-primary/50 hover:shadow-[0_0_40px_rgba(59,130,246,0.2)] transition-all duration-300 hover:-translate-y-2 relative overflow-hidden"
-            >
-              <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
-                <Award size={100} />
-              </div>
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center text-primary border border-primary/20 shadow-[0_0_15px_rgba(59,130,246,0.3)]">
-                  <Code size={28} />
-                </div>
-                <div>
-                  <h5 className="text-xl font-bold text-white tracking-wide">AI Web Development Diploma</h5>
-                  <p className="text-primary font-medium text-sm">Duration: 3 Months</p>
-                </div>
-              </div>
-              <p className="text-secondary-text text-sm leading-relaxed relative z-10">
-                Completed a comprehensive AI Web Development Diploma covering React.js, JavaScript, Tailwind CSS, Node.js, Express.js, Supabase, AI Integrations, Prompt Engineering, and Full Stack Web Development.
-              </p>
-            </motion.div>
-
-            {/* Cert 2 */}
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="group glass p-8 rounded-3xl border border-white/10 hover:border-primary/50 hover:shadow-[0_0_40px_rgba(59,130,246,0.2)] transition-all duration-300 hover:-translate-y-2 relative overflow-hidden"
-            >
-              <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
-                <FileSpreadsheet size={100} />
-              </div>
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-14 h-14 rounded-2xl bg-green-500/10 flex items-center justify-center text-green-500 border border-green-500/20 shadow-[0_0_15px_rgba(34,197,94,0.3)]">
-                  <FileSpreadsheet size={28} />
-                </div>
-                <div>
-                  <h5 className="text-xl font-bold text-white tracking-wide">Microsoft Excel Diploma</h5>
-                </div>
-              </div>
-              <p className="text-secondary-text text-sm leading-relaxed relative z-10">
-                Completed a Microsoft Excel Diploma covering Advanced Excel, Formulas, Functions, Data Analysis, Pivot Tables, Charts, Reporting, and Spreadsheet Automation.
-              </p>
-            </motion.div>
-
-            {/* Cert 3 */}
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-              className="group glass p-8 rounded-3xl border border-white/10 hover:border-primary/50 hover:shadow-[0_0_40px_rgba(59,130,246,0.2)] transition-all duration-300 hover:-translate-y-2 relative overflow-hidden"
-            >
-              <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
-                <Layout size={100} />
-              </div>
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 border border-blue-500/20 shadow-[0_0_15px_rgba(59,130,246,0.3)]">
-                  <Layout size={28} />
-                </div>
-                <div>
-                  <h5 className="text-xl font-bold text-white tracking-wide">Web Development Certification</h5>
-                </div>
-              </div>
-              <p className="text-secondary-text text-sm leading-relaxed relative z-10">
-                Completed a Web Development Certification covering HTML5, CSS3, JavaScript, Responsive Design, and Modern Frontend Development.
-              </p>
-            </motion.div>
-
-
-
-          </div>
-        </div>
 
       </div>
     </section>
