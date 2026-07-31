@@ -8,7 +8,7 @@ const projects = [
     title: 'FutureHome - Solar Platform',
     description: 'An interactive web portal showcasing renewable energy products and services. Built responsive grid layouts for mobile, tablet, and desktop screens.',
     image: 'https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=800&auto=format&fit=crop',
-    category: 'Frontend',
+    category: 'Frontend & Backend',
     tech: ['HTML5', 'CSS3', 'Tailwind', 'JavaScript'],
     github: 'https://github.com/nawalkhanz08-commits',
     demo: '#'
@@ -18,7 +18,7 @@ const projects = [
     title: 'Netflix Interface Clone',
     description: 'A dynamic streaming UI replica featuring real-time movie catalogue fetching via API integration. Implemented modular React components and state management.',
     image: 'https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=800&auto=format&fit=crop',
-    category: 'Frontend',
+    category: 'Frontend & Backend',
     tech: ['React.js', 'JavaScript', 'Tailwind CSS', 'REST API'],
     github: 'https://github.com/nawalkhanz08-commits',
     demo: '#'
@@ -28,7 +28,7 @@ const projects = [
     title: 'Coffee Shop Interactive App',
     description: 'An engaging storefront website highlighting featured products, menus, and business info with smooth scrolling, intuitive UI navigation, and responsive media queries.',
     image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop',
-    category: 'Frontend',
+    category: 'Frontend & Backend',
     tech: ['HTML5', 'CSS3', 'JavaScript'],
     github: 'https://github.com/nawalkhanz08-commits',
     demo: '#'
@@ -77,6 +77,13 @@ export const Projects = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#080C18] via-transparent to-transparent opacity-80" />
                     <div className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                    
+                    {/* Category Badge */}
+                    <div className="absolute top-4 left-4">
+                      <span className="px-4 py-1.5 text-xs font-bold uppercase tracking-wider bg-black/50 backdrop-blur-md text-white rounded-full border border-white/20 shadow-lg">
+                        {project.category}
+                      </span>
+                    </div>
                     
 
                   </div>
