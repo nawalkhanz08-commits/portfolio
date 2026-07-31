@@ -129,25 +129,7 @@ export const Projects = () => {
                       ))}
                     </div>
                     
-                    {/* Action Buttons */}
-                    <div className="flex items-center gap-4 mt-auto">
-                      <a 
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl glass border border-white/10 text-white font-semibold hover:bg-white/10 hover:border-white/30 transition-all duration-300"
-                      >
-                        <Github size={18} /> GitHub
-                      </a>
-                      <a 
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl bg-primary text-white font-semibold hover:bg-blue-600 hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all duration-300"
-                      >
-                        <ExternalLink size={18} /> Live Demo
-                      </a>
-                    </div>
+
                   </div>
 
                 </div>
