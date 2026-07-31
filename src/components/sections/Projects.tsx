@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Github } from '../ui/Icons';
-import { ExternalLink } from 'lucide-react';
+
 
 const projects = [
   {
