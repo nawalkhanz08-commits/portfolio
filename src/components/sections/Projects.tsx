@@ -58,24 +58,7 @@ export const Projects = () => {
           <h2 className="text-[32px] md:text-5xl font-bold text-white mb-6 text-center w-full tracking-wide">
             Featured <span className="text-primary">Projects</span>
           </h2>
-          <div className="w-24 h-1.5 bg-gradient-to-r from-primary to-blue-600 mx-auto rounded-full mb-12" />
-          
-          {/* Filter Buttons */}
-          <div className="flex flex-wrap justify-center gap-4 mb-16">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setFilter(cat)}
-                className={`px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 ${
-                  filter === cat 
-                    ? 'bg-primary text-white shadow-[0_0_20px_rgba(59,130,246,0.6)] border-transparent' 
-                    : 'glass text-secondary-text hover:text-white hover:bg-white/5 border border-white/10'
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
+          <div className="w-24 h-1.5 bg-gradient-to-r from-primary to-blue-600 mx-auto rounded-full mb-16" />
         </motion.div>
 
         <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -102,12 +85,7 @@ export const Projects = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-[#080C18] via-transparent to-transparent opacity-80" />
                     <div className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                     
-                    {/* Category Badge */}
-                    <div className="absolute top-4 left-4">
-                      <span className="px-4 py-1.5 text-xs font-bold uppercase tracking-wider bg-black/50 backdrop-blur-md text-white rounded-full border border-white/20 shadow-lg">
-                        {project.category}
-                      </span>
-                    </div>
+
                   </div>
                   
                   {/* Content Container */}
