@@ -65,7 +65,7 @@ export const Experience = () => {
             whileInView={{ height: '100%' }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 1.5, ease: "easeInOut" }}
-            className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 top-0 w-1 bg-gradient-to-b from-primary via-secondary to-transparent rounded-full origin-top"
+            className="absolute left-4 md:left-1/2 transform -translate-x-1/2 top-0 w-1 bg-gradient-to-b from-primary via-secondary to-transparent rounded-full origin-top"
           />
 
           <div className="space-y-12 md:space-y-24">
@@ -80,12 +80,12 @@ export const Experience = () => {
               >
                 
                 {/* Timeline Dot */}
-                <div className="absolute left-4 md:left-1/2 transform -translate-x-1/2 md:-translate-x-1/2 w-8 h-8 rounded-full bg-[#080C18] border-4 border-primary flex items-center justify-center z-10 shadow-[0_0_15px_rgba(59,130,246,0.6)] mt-1.5 md:mt-0">
+                <div className="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-[#080C18] border-4 border-primary flex items-center justify-center z-10 shadow-[0_0_15px_rgba(59,130,246,0.6)] mt-1.5 md:mt-0">
                   <div className="w-2 h-2 rounded-full bg-secondary animate-pulse" />
                 </div>
 
                 {/* Content Card */}
-                <div className={`ml-12 md:ml-0 md:w-1/2 flex ${index % 2 === 0 ? 'md:justify-start md:pl-12' : 'md:justify-end md:pr-12'} w-full`}>
+                <div className={`w-full pl-14 md:pl-0 md:w-1/2 flex ${index % 2 === 0 ? 'md:justify-start md:pl-12' : 'md:justify-end md:pr-12'}`}>
                   <div className="w-full glass p-8 rounded-3xl border border-white/10 hover:border-primary/40 hover:shadow-[0_15px_40px_rgba(59,130,246,0.15)] transition-all duration-300 group hover:-translate-y-2">
                     
                     <div className="flex items-center gap-4 mb-4 text-primary font-medium">
