@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Download, ExternalLink, GraduationCap, Briefcase, Award, Globe, Zap, Code, User, MapPin, Mail, Phone, Layout, FileSpreadsheet } from 'lucide-react';
+import { Download, ExternalLink, GraduationCap, Briefcase, Globe, Zap, Code, User, MapPin, Mail, Phone } from 'lucide-react';
 
 export const Resume = () => {
   return (
